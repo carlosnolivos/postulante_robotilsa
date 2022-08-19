@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Postulante para ROBOTILSA SA</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QListWidget" name="listWidget">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>500</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QListWidget{
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(0, 85, 127);
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(0, 0, 127);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(0, 0, 127);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QPushButton" name="request">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{
+image: url(:/boton/next_btn.png) ;
+border:none;
+/* color fondo*/
+	background-color: qlineargradient(spread:pad, x1:0.511, y1:0.0340909, x2:1, y2:0, stop:0 rgba(186, 186, 186, 255), stop:1 rgba(246, 246, 246, 255));
+/* color texto*/
+color:rgb(0,0,0);
+/* bordes efecto 3d*/
+border-left:1px solid rbg(0,0,0); 
+border-right:1px solid  rgb(0, 0, 0);
+border-bottom:2px solid rgb(50,50,50); 
+ /* redondeo esquinas*/
+border-radius:20px;
+/* fuente texto*/
+font: 87 9pt &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+/* color fondo*/
+background-color: qlineargradient(spread:pad, x1:0.511, y1:0.0340909, x2:1, y2:0, stop:0 rgba(126, 126, 126, 255), stop:1 rgba(200, 200, 200, 255));
+/* color texto*/
+color:rgb(0,0,0);
+/* bordes efecto 3d*/
+border:none;
+border-left:1px solid rbg(0,0,0); 
+border-right:1px solid  rgb(0, 0, 0);
+border-top:2px solid rgb(50,50,50); 
+}</string>
+         </property>
+         <property name="text">
+          <string>REQUEST</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icono.qrc"/>
+ </resources>
+ <connections/>
+</ui>

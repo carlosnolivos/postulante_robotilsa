@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="boton">
+    <file>next_btn.png</file>
+  </qresource>
+</RCC>
